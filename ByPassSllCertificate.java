@@ -13,12 +13,7 @@ import okhttp3.OkHttpClient;
 
 public class StaticData {
 
-   public static String AppPrefName="VMCPark";
-   public static String IsLogin="islogin";
-
-   public  static String IsCategorySaved="save_cate";
-   public  static String CategoryList="cate_list";
-
+   
    public static OkHttpClient.Builder getUnsafeOkHttpClient() {
 
       try {
